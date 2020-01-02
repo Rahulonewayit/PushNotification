@@ -1,6 +1,6 @@
 <?php
 
-namespace Edujugon\PushNotification\Channels;
+namespace Rahulonewayit\PushNotification\Channels;
 
 class FcmChannel extends GcmChannel
 {

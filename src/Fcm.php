@@ -1,5 +1,5 @@
 <?php
-namespace Edujugon\PushNotification;
+namespace Rahulonewayit\PushNotification;
 
 use GuzzleHttp\Client;
 

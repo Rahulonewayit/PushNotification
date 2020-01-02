@@ -1,4 +1,4 @@
-<?php namespace Edujugon\PushNotification\Facades;
+<?php namespace Rahulonewayit\PushNotification\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -12,6 +12,6 @@ class PushNotification extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'edujugonPushNotification';
+        return 'RahulonewayitPushNotification';
     }
 }

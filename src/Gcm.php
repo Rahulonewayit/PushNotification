@@ -1,7 +1,7 @@
 <?php
-namespace Edujugon\PushNotification;
+namespace Rahulonewayit\PushNotification;
 
-use Edujugon\PushNotification\Contracts\PushServiceInterface;
+use Rahulonewayit\PushNotification\Contracts\PushServiceInterface;
 use GuzzleHttp\Client;
 
 class Gcm extends PushService implements PushServiceInterface
@@ -29,7 +29,7 @@ class Gcm extends PushService implements PushServiceInterface
     public function __construct()
     {
         $this->url = 'https://android.googleapis.com/gcm/send';
-        
+
         $this->config = $this->initializeConfig('gcm');
         $this->client = new Client;
     }
@@ -156,7 +156,7 @@ class Gcm extends PushService implements PushServiceInterface
 
         } catch (\Exception $e) {
             $response = ['success' => false, 'error' => $e->getMessage()];
-            
+
             $this->setFeedback(json_decode(json_encode($response)));
 
             return $this->feedback;

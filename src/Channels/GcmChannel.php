@@ -1,8 +1,8 @@
 <?php
 
-namespace Edujugon\PushNotification\Channels;
+namespace Rahulonewayit\PushNotification\Channels;
 
-use Edujugon\PushNotification\Messages\PushMessage;
+use Rahulonewayit\PushNotification\Messages\PushMessage;
 
 class GcmChannel extends PushChannel
 {

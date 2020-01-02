@@ -1,6 +1,6 @@
 <?php
 
-namespace Edujugon\PushNotification\Messages;
+namespace Rahulonewayit\PushNotification\Messages;
 
 class PushMessage
 {
@@ -113,7 +113,7 @@ class PushMessage
     }
 
     /**
-     * The action associated with a user click on the notification.(Android) 
+     * The action associated with a user click on the notification.(Android)
      *
      * @param  string $click_action
      * @return $this
@@ -121,12 +121,12 @@ class PushMessage
     public function clickAction($click_action)
     {
         $this->click_action = $click_action;
-        
+
         return $this;
     }
 
     /**
-     * The action associated with a user click on the notification.(iOS) 
+     * The action associated with a user click on the notification.(iOS)
      *
      * @param  string $click_action
      * @return $this

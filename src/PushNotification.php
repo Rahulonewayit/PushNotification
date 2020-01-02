@@ -1,5 +1,5 @@
 <?php
-namespace Edujugon\PushNotification;
+namespace Rahulonewayit\PushNotification;
 
 class PushNotification
 {
@@ -51,7 +51,7 @@ class PushNotification
         if (!array_key_exists($service, $this->servicesList)) {
             $service = $this->defaultServiceName;
         }
-        
+
         $this->service = is_null($service) ? new $this->servicesList[$this->defaultServiceName]
                                             : new $this->servicesList[$service];
     }

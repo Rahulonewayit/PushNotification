@@ -1,7 +1,7 @@
 <?php
-namespace Edujugon\PushNotification;
+namespace Rahulonewayit\PushNotification;
 
-use Edujugon\PushNotification\Exceptions\PushNotificationException;
+use Rahulonewayit\PushNotification\Exceptions\PushNotificationException;
 
 abstract class PushService
 {
